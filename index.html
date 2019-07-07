@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="uft-8">
     <title>Giphy</title>
 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     
     
   </head>
@@ -15,18 +16,19 @@
     <img src="images/background.jpg" class="img-fluid" alt="Responsive image">
 
     <div class="container">
-        <h1>Luxury Cars</h1>
+        <h1>Vehicles</h1>
 
         <div>
-            <div id="button"></div>
+            <button type="button" class="btn btn-secondary" id="button" button>
+            
         </div>
 
         <div>
             <form id="form">
-                <label for="input">Car Brands</label>
+                <label for="input">Types</label>
                 <br>
                 <input type="text" id="userinput">
-                <input id="submitButton" type="Submit" value="ADD">
+                <input id="submitButton" type="Submit" value="ADD" class="car">
 
             </form>
         </div>
@@ -37,7 +39,11 @@
 
     </div>
 
-
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="javascript/giphy.js"></script>
 </body>
